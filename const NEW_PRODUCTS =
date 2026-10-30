@@ -261,18 +261,18 @@ const DATA_SABANG = {
 
 // MENGGUNAKAN PATH LOKAL SESUAI PERMINTAAN: sumber/produk/NAMA_FILE.jpeg
 const NEW_PRODUCTS = [
-    { id:'PRD001', nama:'Banner EcoPrint 1', kategori:'Kain/Bahan Ecoprint', harga:150000, stok:10, foto:'sumber/produk/banner ecoPrint1.jpeg', deskripsi:'Kain ecoprint motif banner eksklusif, cocok untuk dekorasi ruangan maupun bahan fashion kreatif.' },
+    { id:'PRD001', nama:'Banner EcoPrint 1', kategori:'Kain/Bahan Ecoprint', harga:150000, stok:10, foto:'sumber/produk/banner ecoPrint1.jpg', deskripsi:'Kain ecoprint motif banner eksklusif, cocok untuk dekorasi ruangan maupun bahan fashion kreatif.' },
     { id:'PRD002', nama:'Banner Ecoprint 3', kategori:'Kain/Bahan Ecoprint', harga:150000, stok:10, foto:'sumber/produk/Banner ecoprint-3.jpeg', deskripsi:'Banner ecoprint dengan motif daun alami khas Sabang.' },
-    { id:'PRD003', nama:'Banner Ecoprint 2', kategori:'Kain/Bahan Ecoprint', harga:150000, stok:10, foto:'sumber/produk/banner ecoprnit 2.jpeg', deskripsi:'Kain banner ecoprint dengan corak khas tumbuhan tropis.' },
-    { id:'PRD004', nama:'Ecoprint 4', kategori:'Kain/Bahan Ecoprint', harga:175000, stok:8, foto:'sumber/produk/ecoprint 4.jpeg', deskripsi:'Kain ecoprint premium motif flora dengan warna earthy.' },
-    { id:'PRD005', nama:'Kain Ecoprint Motif', kategori:'Kain/Bahan Ecoprint', harga:175000, stok:8, foto:'sumber/produk/product 1(kain).jpeg', deskripsi:'Kain ecoprint dengan motif alami hasil teknik pewarnaan tradisional.' },
-    { id:'PRD006', nama:'Dress Pantai Wanita', kategori:'Dress', harga:225000, stok:12, foto:'sumber/produk/Gaun Pantai Wanita.jpeg', deskripsi:'Dress pantai wanita bahan adem, motif ecoprint natural.' },
+    { id:'PRD003', nama:'Banner Ecoprint 2', kategori:'Kain/Bahan Ecoprint', harga:150000, stok:10, foto:'sumber/produk/banner ecoprint 2.jpg', deskripsi:'Kain banner ecoprint dengan corak khas tumbuhan tropis.' },
+    { id:'PRD004', nama:'Ecoprint 4', kategori:'Kain/Bahan Ecoprint', harga:175000, stok:8, foto:'sumber/produk/ecoprint 4.jpg', deskripsi:'Kain ecoprint premium motif flora dengan warna earthy.' },
+    { id:'PRD005', nama:'Kain Ecoprint Motif', kategori:'Kain/Bahan Ecoprint', harga:175000, stok:8, foto:'sumber/produk/produk 1(kain).jpg', deskripsi:'Kain ecoprint dengan motif alami hasil teknik pewarnaan tradisional.' },
+    { id:'PRD006', nama:'Gaun Pantai Wanita', kategori:'Dress', harga:225000, stok:12, foto:'sumber/produk/Gaun Pantai Wanita.jpeg', deskripsi:'Gaun pantai wanita bahan adem, motif ecoprint natural.' },
     { id:'PRD007', nama:'Dress Wanita Hitam Eco Print', kategori:'Dress', harga:235000, stok:10, foto:'sumber/produk/Dress Wanita Hitam Eco Print.jpeg', deskripsi:'Dress hitam elegan dengan aksen ecoprint natural.' },
     { id:'PRD008', nama:'Gamis Eco Print', kategori:'Gamis', harga:285000, stok:8, foto:'sumber/produk/Gamis eco print.jpeg', deskripsi:"Gamis ecoprint syar'i dengan motif alami, nyaman dipakai harian." },
     { id:'PRD009', nama:'Gamis Motif Reflesia Eco Print', kategori:'Gamis', harga:295000, stok:6, foto:'sumber/produk/Gamis Motif REflesia Eco print.jpeg', deskripsi:'Gamis motif Rafflesia khas, karya ecoprint premium.' },
     { id:'PRD010', nama:'Gaun Wanita EcoPrint', kategori:'Gaun', harga:315000, stok:5, foto:'sumber/produk/Gaun Wanita EcoPrint.jpeg', deskripsi:'Gaun wanita ecoprint dengan siluet elegan untuk acara spesial.' },
     { id:'PRD011', nama:'Rompi Wanita EcoPrint', kategori:'Rompi', harga:185000, stok:10, foto:'sumber/produk/rompi wanita EcoPrint.jpeg', deskripsi:'Rompi wanita ecoprint, cocok untuk outfit layering.' },
-    { id:'PRD012', nama:'Kaos EcoPrint Motif Bambu', kategori:'Kaos', harga:145000, stok:20, foto:'sumber/produk/Kaos EcoPrint Motif Bambu.jpeg', deskripsi:'Kaos katun dengan motif bambu hasil ecoprint alami.' },
+    { id:'PRD012', nama:'Kaos EcoPrint Motif Bambu', kategori:'Kaos', harga:145000, stok:20, foto:'sumber/produk/Kaos EcoPrint Motif Bambo.jpeg', deskripsi:'Kaos katun dengan motif bambu hasil ecoprint alami.' },
     { id:'PRD013', nama:'Kaos Motif Daun Ketapang', kategori:'Kaos', harga:145000, stok:18, foto:'sumber/produk/Kaos Motif Daun Ketapang.jpeg', deskripsi:'Kaos dengan motif daun ketapang khas ecoprint.' },
     { id:'PRD014', nama:'Kaos Oblong Eco Print Putih', kategori:'Kaos', harga:135000, stok:22, foto:'sumber/produk/kaos Oblong Eco Print Putih.jpeg', deskripsi:'Kaos oblong putih dengan aksen ecoprint minimalis.' },
     { id:'PRD015', nama:'Kemeja Eco Print Sabang', kategori:'Kemeja', harga:245000, stok:10, foto:'sumber/produk/Kemeja Eco Print, Sabang.jpeg', deskripsi:'Kemeja ecoprint khas Sabang, motif natural dan elegan.' },
@@ -280,10 +280,10 @@ const NEW_PRODUCTS = [
     { id:'PRD017', nama:'Kemeja Wanita Ecoprint', kategori:'Kemeja', harga:235000, stok:10, foto:'sumber/produk/Kemeja Wanita Ecoprint.jpeg', deskripsi:'Kemeja wanita ecoprint dengan potongan modern.' },
     { id:'PRD018', nama:'Kimono Eco Print', kategori:'Kimono', harga:315000, stok:5, foto:'sumber/produk/Kimono eco Print.jpeg', deskripsi:'Kimono ecoprint dengan motif tumbuhan tropis.' },
     { id:'PRD019', nama:'Kimono Jepang EcoPrint', kategori:'Kimono', harga:335000, stok:4, foto:'sumber/produk/Kimono Jepang, EcoPrint.jpeg', deskripsi:'Kimono jepang eco print, perpaduan budaya Jepang dan alam Nusantara.' },
-    { id:'PRD020', nama:'Totebag Ecoprint', kategori:'Totebag', harga:125000, stok:15, foto:'sumber/produk/product2 (tootbag).jpeg', deskripsi:'Totebag kanvas ecoprint, ramah lingkungan dan stylish.' },
+    { id:'PRD020', nama:'Totebag Ecoprint', kategori:'Totebag', harga:125000, stok:15, foto:'sumber/produk/produk2 (tas jinjing).png', deskripsi:'Totebag kanvas ecoprint, ramah lingkungan dan stylish.' },
     { id:'PRD021', nama:'Totebag Ecoprint Motif Bunga', kategori:'Totebag', harga:135000, stok:12, foto:'sumber/produk/Produk3 (tas belanja).jpg', deskripsi:'Totebag ecoprint motif bunga alami, cocok untuk aktivitas harian.' },
-    { id:'PRD022', nama:'Totebag Ecoprint 2', kategori:'Totebag', harga:125000, stok:14, foto:'sumber/produk/Product4 (tootbag).jpeg', deskripsi:'Totebag ecoprint dengan motif unik hasil pewarnaan alami.' },
-    { id:'PRD023', nama:'Totebag Ecoprint Motif', kategori:'Totebag', harga:135000, stok:10, foto:'sumber/produk/produt 1 (tootbag).jpeg', deskripsi:'Totebag ecoprint dengan motif khas Nusantara.' },
+    { id:'PRD022', nama:'Totebag Ecoprint 2', kategori:'Totebag', harga:125000, stok:14, foto:'sumber/produk/Produk4 (tas jinjing).jpg', deskripsi:'Totebag ecoprint dengan motif unik hasil pewarnaan alami.' },
+    { id:'PRD023', nama:'Totebag Ecoprint Motif', kategori:'Totebag', harga:135000, stok:10, foto:'sumber/produk/produk 1 (tootbag).jpeg', deskripsi:'Totebag ecoprint dengan motif khas Nusantara.' },
     { id:'PRD024', nama:'Totebag Wanita Motif Daun Ubi', kategori:'Totebag', harga:145000, stok:8, foto:'sumber/produk/Tootbag Wanita Motif Daun Ubi.jpeg', deskripsi:'Totebag wanita motif daun ubi hasil ecoprint alami.' }
 ];
 
